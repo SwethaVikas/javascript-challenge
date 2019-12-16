@@ -51,7 +51,7 @@ function tableDisplay(ufoSightings) {
         .append("tr")
         .append("td")
           .attr("colspan", 7)
-          .html("<h4>No Data Found</h4>");
+          .html("<h4>Data Not Found</h4>");
     };
   
     console.log(filteredData);
